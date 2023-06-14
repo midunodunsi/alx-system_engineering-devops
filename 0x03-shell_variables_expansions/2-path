@@ -1,3 +1,2 @@
 #!/biin/bash
-setx PATH "%PATH%;C:\action"
-
+export PATH=$PATH:/action
