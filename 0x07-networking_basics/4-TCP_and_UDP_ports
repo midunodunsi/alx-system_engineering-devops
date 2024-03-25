@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Dis[lays listening ports with regard listening sockets
+netstat -lp
