@@ -8,7 +8,7 @@ import sys
 
 def fetch_user_data(user_id):
     """Fetches user data from the API."""
-    url = "https://jsonplaceholder.typicode.com/users/{user_id}"
+    url = f"https://jsonplaceholder.typicode.com/users/{user_id}"
     response = requests.get(url)
     response.raise_for_status()  # Raise an error for bad status codes
     return response.json()
