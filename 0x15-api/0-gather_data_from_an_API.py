@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     # Print the employee's name and the number of completed tasks
     print("Employee {} is done with tasks({}/{}):".format(
-    user.get("name"), len(completed), len(todos)))
+        user.get("name"), len(completed), len(todos)))
 
     for complete in completed:
-                print("\t {}".format(complete))
+        print("\t {}".format(complete))
